@@ -2,8 +2,8 @@ var request = require('request');
 
 // Declare API endpoint for the IOTA node
 var iotaNode = 'http://localhost:14265';
-var snapshotUrl = {PLACE HOLDER FOR SNAPHOT_URL};
-var milestoneIndex = {PLACE HOLDER FOR MILESTONE_INDEX};
+var snapshotUrl = 'https://raw.githubusercontent.com/iotaledger/iri/release-v1.7.0/src/main/resources/snapshotMainnet.txt';
+var milestoneIndex = '1039245';
 
 var snapshot = function() {
     var command = {
